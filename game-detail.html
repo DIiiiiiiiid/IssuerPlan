@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>不死族进化 - 游戏详情 | 星火发行人计划</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="星火发行人计划" />
+          <h1>星火发行人计划</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#" class="active">任务中心</a></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="game-detail-hero">
+      <div class="container">
+        <div class="back-button">
+          <a href="index.html"><i class="fas fa-arrow-left"></i> 不死族进化</a>
+        </div>
+        <div class="game-banner">
+          <img src="images/game1.jpg" alt="不死族进化" />
+        </div>
+      </div>
+    </section>
+
+    <section class="game-detail-content">
+      <div class="container">
+        <div class="game-info-cards">
+          <div class="info-card">
+            <h2>基础数据</h2>
+            <div class="basic-stats">
+              <div class="stat">
+                <h3>视频投稿数</h3>
+                <p class="stat-value">225</p>
+              </div>
+              <div class="stat">
+                <h3>总点赞数</h3>
+                <p class="stat-value">8.8W</p>
+              </div>
+              <div class="stat">
+                <h3>总播放量</h3>
+                <p class="stat-value">188W</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h2>任务介绍</h2>
+            <div class="task-intro">
+              <div class="task-row">
+                <div class="task-label">名称：</div>
+                <div class="task-value">不死族进化</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">发布者：</div>
+                <div class="task-value">我行我素</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">发布时间：</div>
+                <div class="task-value">2025/4/24</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">截止时间：</div>
+                <div class="task-value">2025/6/24</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">投稿平台：</div>
+                <div class="task-value">抖音、bilibili、小红书、快手</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">目标：</div>
+                <div class="task-value">点赞量</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">奖金单价：</div>
+                <div class="task-value">100</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">单条奖金上限：</div>
+                <div class="task-value">20000</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">奖池余额：</div>
+                <div class="task-value">300000</div>
+              </div>
+              <div class="task-row">
+                <div class="task-label">奖池总额：</div>
+                <div class="task-value">350000</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h2>任务说明</h2>
+            <div class="task-instructions">
+              <ul>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span>在抖音、bilibili、小红书、快手平台发布游戏视频</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span
+                    >视频点赞量至少达到<strong class="highlight">10赞</strong
+                    >（对应后台字段：最小点赞数）</span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span
+                    >发布视频需添加标签<strong class="highlight"
+                      >#TapTap游戏</strong
+                    ></span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span
+                    >发布视频需要添加任务名称作为标签<strong class="highlight"
+                      >#名称</strong
+                    >（对应后台字段：任务名称）</span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span
+                    >发布视频需要添加个人的SCEId作为标签<strong
+                      class="highlight"
+                      >#sceid</strong
+                    ></span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span
+                    >视频内容需要围绕<strong class="highlight"
+                      >《游戏名称》</strong
+                    >画面进行制作</span
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span>视频发布时间不得早于任务创建时间</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span>审核通过后，奖励会自动发放</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="btn-submit" id="upload-video-btn">
+            上传视频完成任务
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 游戏收入排行榜 -->
+    <section class="income-ranking">
+      <div class="container">
+        <div class="section-header">
+          <h2>收入排行榜</h2>
+          <p>该游戏获得星火币最多的创作者视频</p>
+        </div>
+
+        <div class="ranking-list">
+          <!-- 排名第一 -->
+          <div class="ranking-item top-ranked">
+            <div class="rank-number">1</div>
+            <a
+              href="https://www.bilibili.com/video/BV1234567890"
+              class="video-preview"
+            >
+              <div class="platform-icon bilibili">B站</div>
+              <img src="images/video-preview-1.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://www.bilibili.com/video/BV1234567890"
+                  >《奥德赛:星座传说》单人过关教程：轻松拿下全成就攻略！</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">星辰大海</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>8,650</strong>星火币
+              </div>
+            </div>
+          </div>
+
+          <!-- 排名第二 -->
+          <div class="ranking-item top-ranked">
+            <div class="rank-number">2</div>
+            <a
+              href="https://www.douyin.com/video/12345678"
+              class="video-preview"
+            >
+              <div class="platform-icon douyin">抖音</div>
+              <img src="images/video-preview-2.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://www.douyin.com/video/12345678"
+                  >新手必看！奥德赛：星座传说全角色解锁指南+隐藏彩蛋</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">游戏达人小王</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>7,320</strong>星火币
+              </div>
+            </div>
+          </div>
+
+          <!-- 排名第三 -->
+          <div class="ranking-item top-ranked">
+            <div class="rank-number">3</div>
+            <a
+              href="https://www.xiaohongshu.com/discovery/item/12345"
+              class="video-preview"
+            >
+              <div class="platform-icon xiaohongshu">小红书</div>
+              <img src="images/video-preview-3.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://www.xiaohongshu.com/discovery/item/12345"
+                  >一个女生的《奥德赛:星座传说》通关体验，这画面也太美了！</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">甜甜游戏酱</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>6,480</strong>星火币
+              </div>
+            </div>
+          </div>
+
+          <!-- 排名第四 -->
+          <div class="ranking-item">
+            <div class="rank-number">4</div>
+            <a
+              href="https://www.kuaishou.com/short-video/12345"
+              class="video-preview"
+            >
+              <div class="platform-icon kuaishou">快手</div>
+              <img src="images/video-preview-4.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://www.kuaishou.com/short-video/12345"
+                  >《奥德赛:星座传说》最强五星评测，值不值得买？</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">游戏老炮儿</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>5,930</strong>星火币
+              </div>
+            </div>
+          </div>
+
+          <!-- 排名第五 -->
+          <div class="ranking-item">
+            <div class="rank-number">5</div>
+            <a
+              href="https://www.bilibili.com/video/BV1234567891"
+              class="video-preview"
+            >
+              <div class="platform-icon bilibili">B站</div>
+              <img src="images/video-preview-5.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://www.bilibili.com/video/BV1234567891"
+                  >《奥德赛:星座传说》多人联机玩法，和朋友一起冒险！</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">游戏兄弟连</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>4,870</strong>星火币
+              </div>
+            </div>
+          </div>
+
+          <!-- 排名第六 -->
+          <div class="ranking-item">
+            <div class="rank-number">6</div>
+            <a href="https://tieba.baidu.com/p/12345678" class="video-preview">
+              <div class="platform-icon tieba">贴吧</div>
+              <img src="images/video-preview-6.jpg" alt="视频预览" />
+            </a>
+            <div class="video-info">
+              <h3 class="video-title">
+                <a href="https://tieba.baidu.com/p/12345678"
+                  >独家分享！《奥德赛:星座传说》剧情解析和彩蛋汇总</a
+                >
+              </h3>
+              <div class="creator-info">
+                创作者：<span class="creator-name">剧情控</span>
+              </div>
+              <div class="reward-amount">
+                获得奖励：<strong>3,750</strong>星火币
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-more-container">
+          <button class="btn-view-more">查看更多</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 要求提示弹窗 -->
+    <div class="modal" id="requirements-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>上传视频</h3>
+          <span class="close-modal">&times;</span>
+        </div>
+        <div class="modal-body">
+          <h4>请确认您的视频符合下列要求：</h4>
+          <div class="requirements-list">
+            <ol>
+              <li>视频点赞量达到10赞以上</li>
+              <li>视频标题中包含# TapTap游戏</li>
+              <li>视频标题中包含# 我是给这个游戏做测评</li>
+              <li>投稿链接公开可见/未失效</li>
+              <li>投稿链接无重复投稿</li>
+              <li>投稿链接为视频内容，图文内容无效</li>
+              <li>视频内容围绕《不死族进化》游戏画面</li>
+            </ol>
+          </div>
+          <div class="notice">
+            <p><i class="fas fa-exclamation-triangle"></i> 注意：</p>
+            <p>不符合以上要求的视频将无法通过审核</p>
+            <p>多次上传不符合任务要求的视频将永久取消投稿资格</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn modal-cancel">取消</button>
+          <button class="modal-btn modal-confirm" id="confirm-requirements">
+            确认并继续上传
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 上传视频信息弹窗 -->
+    <div class="modal" id="upload-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>上传视频信息</h3>
+          <span class="close-modal">&times;</span>
+        </div>
+        <div class="modal-body">
+          <form id="upload-form">
+            <div class="form-group">
+              <label>选择投稿平台</label>
+              <div class="platform-selection">
+                <div class="platform-option">
+                  <input
+                    type="radio"
+                    name="platform"
+                    id="platform-kuaishou"
+                    value="kuaishou"
+                  />
+                  <label for="platform-kuaishou" class="platform-label"
+                    >快手</label
+                  >
+                </div>
+                <div class="platform-option">
+                  <input
+                    type="radio"
+                    name="platform"
+                    id="platform-douyin"
+                    value="douyin"
+                  />
+                  <label for="platform-douyin" class="platform-label"
+                    >抖音</label
+                  >
+                </div>
+                <div class="platform-option">
+                  <input
+                    type="radio"
+                    name="platform"
+                    id="platform-bilibili"
+                    value="bilibili"
+                  />
+                  <label for="platform-bilibili" class="platform-label"
+                    >Bilibili</label
+                  >
+                </div>
+                <div class="platform-option">
+                  <input
+                    type="radio"
+                    name="platform"
+                    id="platform-xiaohongshu"
+                    value="xiaohongshu"
+                  />
+                  <label for="platform-xiaohongshu" class="platform-label"
+                    >小红书</label
+                  >
+                </div>
+                <div class="platform-option">
+                  <input
+                    type="radio"
+                    name="platform"
+                    id="platform-tieba"
+                    value="tieba"
+                  />
+                  <label for="platform-tieba" class="platform-label"
+                    >贴吧</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="video-link">粘贴视频链接</label>
+              <input
+                type="text"
+                id="video-link"
+                placeholder="请粘贴已发布视频的链接"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="video-title">视频标题</label>
+              <input
+                type="text"
+                id="video-title"
+                placeholder="请输入视频标题"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="sceid">您的SCEId</label>
+              <input
+                type="text"
+                id="sceid"
+                placeholder="请输入您的SCEId"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="contact">联系方式</label>
+              <input
+                type="text"
+                id="contact"
+                placeholder="请输入您的联系方式，便于奖励发放"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn modal-cancel">返回</button>
+          <button class="modal-btn modal-confirm" id="submit-upload">
+            确认提交
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 提交成功弹窗 -->
+    <div class="modal" id="success-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>提交成功</h3>
+          <span class="close-modal">&times;</span>
+        </div>
+        <div class="modal-body success-message">
+          <i class="fas fa-check-circle success-icon"></i>
+          <h4>您的视频已提交成功！</h4>
+          <p>我们将尽快审核您的视频，审核通过后奖励将自动发放。</p>
+          <p>审核结果将通过您提供的联系方式通知您。</p>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn modal-confirm" id="success-confirm">
+            确定
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="星火发行人计划" />
+            <h3>星火发行人计划</h3>
+          </div>
+          <div class="footer-contact">
+            <h4>联系我们</h4>
+            <div class="contact-info">
+              <div class="contact-email">
+                <p>商务合作：contact@starfire.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 星火科技有限公司 版权所有 | ICP备xxxxxxxx号</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
